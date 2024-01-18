@@ -9,6 +9,20 @@
     transition: transform 0.3s;
 }
 
+.img-fluid {
+    transition: transform 0.3s;
+    border-radius: 10px;
+}
+
+#partenaires p {
+    font-size: 20px;
+    margin-top: 6px;
+}
+
+#partenaires .img-fluid:hover {
+    transform: rotate(6deg);
+}
+
 .card:hover {
     transform: scale(1.05);
 }
