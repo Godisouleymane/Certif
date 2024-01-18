@@ -2,6 +2,24 @@
     border-radius: 50%;
     margin: auto;
     display: block;
+    width: 100px;
+    height: 100px;
+    padding-top: 5px;
+}
+
+header {
+    background: linear-gradient(to bottom, #1c558f, #1c1f22);
+    color: white; 
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: #1c558f !important;
+}
+
+#pourquoi-choisir, footer {
+    background: linear-gradient(to bottom, #1c558f, #1c1f22);
+    color: white; 
 }
 
 .card {
